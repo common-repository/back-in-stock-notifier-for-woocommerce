@@ -1,0 +1,1342 @@
+# Copyright (C) 2024 codewoogeek
+# This file is distributed under the same license as the Back In Stock Notifier for WooCommerce | WooCommerce Waitlist Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Back In Stock Notifier for WooCommerce | WooCommerce Waitlist Pro 5.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/back-in-stock-notifier-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-24T18:50:56+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: back-in-stock-notifier-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: cwginstocknotifier.php
+msgid "Back In Stock Notifier for WooCommerce | WooCommerce Waitlist Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: cwginstocknotifier.php
+msgid "https://codewoogeek.online/shop/free-plugins/back-in-stock-notifier/"
+msgstr ""
+
+#. Description of the plugin
+#: cwginstocknotifier.php
+msgid "Notify subscribed users when products back in stock"
+msgstr ""
+
+#. Author of the plugin
+#: cwginstocknotifier.php
+msgid "codewoogeek"
+msgstr ""
+
+#. Author URI of the plugin
+#: cwginstocknotifier.php
+msgid "https://codewoogeek.online"
+msgstr ""
+
+#: cwginstocknotifier.php:222
+#: includes/admin/class-settings.php:514
+msgid "Name cannot be empty"
+msgstr ""
+
+#: cwginstocknotifier.php:223
+#: includes/class-quantity-field.php:83
+msgid "Quantity cannot be empty"
+msgstr ""
+
+#: cwginstocknotifier.php:224
+msgid "Email Address cannot be empty"
+msgstr ""
+
+#: cwginstocknotifier.php:225
+msgid "Please Enter Valid Email Address"
+msgstr ""
+
+#: cwginstocknotifier.php:228
+msgid "Phone Number cannot be empty"
+msgstr ""
+
+#: cwginstocknotifier.php:229
+#: includes/admin/class-settings.php:539
+msgid "Please enter valid Phone Number"
+msgstr ""
+
+#: cwginstocknotifier.php:230
+#: includes/admin/class-settings.php:548
+msgid "Phone Number too short"
+msgstr ""
+
+#: cwginstocknotifier.php:231
+#: includes/admin/class-settings.php:557
+msgid "Phone Number too long"
+msgstr ""
+
+#: includes/admin/class-extra.php:15
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/class-post-type.php:66
+msgctxt "All Subscribers"
+msgid "Subscribers"
+msgstr ""
+
+#: includes/admin/class-post-type.php:67
+msgctxt "All Subscribers"
+msgid "All Subscribers"
+msgstr ""
+
+#: includes/admin/class-post-type.php:68
+msgctxt "Instock Notifier"
+msgid "Instock Notifier"
+msgstr ""
+
+#: includes/admin/class-post-type.php:69
+msgctxt "Name in Admin Bar"
+msgid "Instock Notifier"
+msgstr ""
+
+#: includes/admin/class-post-type.php:70
+msgctxt "add new in menu"
+msgid "Add New Subscriber"
+msgstr ""
+
+#: includes/admin/class-post-type.php:71
+msgid "Add New Subscriber"
+msgstr ""
+
+#: includes/admin/class-post-type.php:72
+msgid "New Subscriber"
+msgstr ""
+
+#: includes/admin/class-post-type.php:73
+msgid "Edit Subscriber"
+msgstr ""
+
+#: includes/admin/class-post-type.php:74
+msgid "View Subscriber"
+msgstr ""
+
+#: includes/admin/class-post-type.php:75
+msgid "All Subscribers"
+msgstr ""
+
+#: includes/admin/class-post-type.php:76
+msgid "Search Subscribers"
+msgstr ""
+
+#: includes/admin/class-post-type.php:77
+#: includes/class-stock-arrival.php:58
+msgid "Parent:"
+msgstr ""
+
+#: includes/admin/class-post-type.php:78
+msgid "No Subscriber Found"
+msgstr ""
+
+#: includes/admin/class-post-type.php:79
+msgid "No Subscriber found in Trash"
+msgstr ""
+
+#: includes/admin/class-post-type.php:118
+msgctxt "post"
+msgid "Mail Sent"
+msgstr ""
+
+#. translators: %s: count
+#: includes/admin/class-post-type.php:124
+msgid "Mail Sent <span class=\"count\">(%s)</span>"
+msgid_plural "Mail Sent <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-post-type.php:131
+msgctxt "post"
+msgid "Failed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:144
+msgctxt "post"
+msgid "Subscribed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:157
+msgctxt "post"
+msgid "Unsubscribed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:170
+msgctxt "post"
+msgid "Purchased"
+msgstr ""
+
+#: includes/admin/class-post-type.php:203
+msgid "Avatar"
+msgstr ""
+
+#: includes/admin/class-post-type.php:204
+msgid "Email"
+msgstr ""
+
+#: includes/admin/class-post-type.php:205
+#: includes/admin/class-status.php:18
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-post-type.php:206
+msgid "Product"
+msgstr ""
+
+#: includes/admin/class-post-type.php:207
+msgid "Registered User"
+msgstr ""
+
+#: includes/admin/class-post-type.php:208
+#: includes/admin/class-post-type.php:289
+msgid "Subscribed on"
+msgstr ""
+
+#: includes/admin/class-post-type.php:209
+msgid "Mail Sent on "
+msgstr ""
+
+#: includes/admin/class-post-type.php:247
+msgid "In Stock"
+msgstr ""
+
+#: includes/admin/class-post-type.php:247
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/admin/class-post-type.php:250
+msgid "Current Stock Status:"
+msgstr ""
+
+#: includes/admin/class-post-type.php:253
+msgid "Available Quantity:"
+msgstr ""
+
+#: includes/admin/class-post-type.php:262
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-post-type.php:264
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-post-type.php:274
+msgid "---"
+msgstr ""
+
+#: includes/admin/class-post-type.php:307
+msgid "Subscribed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:311
+msgid "Mail Sent"
+msgstr ""
+
+#: includes/admin/class-post-type.php:315
+msgid "Unsubscribed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:319
+msgid "Purchased"
+msgstr ""
+
+#: includes/admin/class-post-type.php:323
+msgid "Failed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:327
+msgid "Waiting for Confirmation"
+msgstr ""
+
+#: includes/admin/class-post-type.php:349
+msgid "ID:"
+msgstr ""
+
+#: includes/admin/class-post-type.php:365
+msgid "Send Instock Mail"
+msgstr ""
+
+#: includes/admin/class-post-type.php:391
+msgid "View Subscribers"
+msgstr ""
+
+#: includes/admin/class-post-type.php:420
+#: includes/admin/class-post-type.php:711
+msgid "Instock mail sent to {email_id} successfully"
+msgstr ""
+
+#: includes/admin/class-post-type.php:438
+#: includes/admin/class-post-type.php:718
+msgid "Unable to send Instock mail to this {email_id}"
+msgstr ""
+
+#: includes/admin/class-post-type.php:451
+#: includes/admin/class-post-type.php:726
+msgid "Unable to send Instock mail to this {email_id} as stock product does not exists/deleted !!!"
+msgstr ""
+
+#: includes/admin/class-post-type.php:466
+msgid "Security Check Failed, Please try later"
+msgstr ""
+
+#: includes/admin/class-post-type.php:502
+msgid "Change status to Mail Sent"
+msgstr ""
+
+#: includes/admin/class-post-type.php:503
+msgid "Change status to Subscribed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:504
+msgid "Change status to Unsubscribed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:505
+msgid "Send Email"
+msgstr ""
+
+#: includes/admin/class-post-type.php:548
+msgid "Filter by products"
+msgstr ""
+
+#. translators: %s:
+#: includes/admin/class-post-type.php:634
+msgid "%s - Data(s) Manually marked status to Mail Sent"
+msgstr ""
+
+#. translators: %s:
+#: includes/admin/class-post-type.php:660
+msgid "%s - Data(s) Manually marked status to Subscribed"
+msgstr ""
+
+#. translators: %s: count
+#: includes/admin/class-post-type.php:686
+msgid "%s - Data(s) Manually marked status to Unsubscribed"
+msgstr ""
+
+#: includes/admin/class-post-type.php:734
+msgid "Bulk Email: "
+msgstr ""
+
+#: includes/admin/class-post-type.php:758
+msgid "Subscribers Count"
+msgstr ""
+
+#: includes/admin/class-settings.php:20
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:30
+msgid "Back In Stock Notifier for WooCommerce Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:63
+msgid "Frontend Form"
+msgstr ""
+
+#: includes/admin/class-settings.php:64
+msgid "Frontend Subscribe Form Display Type"
+msgstr ""
+
+#: includes/admin/class-settings.php:65
+msgid "Title for Subscribe Form"
+msgstr ""
+
+#: includes/admin/class-settings.php:66
+msgid "Placeholder for Name Field"
+msgstr ""
+
+#: includes/admin/class-settings.php:68
+msgid "Placeholder for Email Field"
+msgstr ""
+
+#: includes/admin/class-settings.php:69
+msgid "Button Label"
+msgstr ""
+
+#: includes/admin/class-settings.php:71
+msgid "Visibility Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:72
+msgid "Hide Name"
+msgstr ""
+
+#: includes/admin/class-settings.php:74
+msgid "Show Phone"
+msgstr ""
+
+#: includes/admin/class-settings.php:75
+msgid "Phone field optional"
+msgstr ""
+
+#: includes/admin/class-settings.php:76
+msgid "Default Country for Phone Field"
+msgstr ""
+
+#: includes/admin/class-settings.php:77
+msgid "Default Country for Phone Field Placeholder"
+msgstr ""
+
+#: includes/admin/class-settings.php:78
+#: includes/admin/class-settings.php:262
+msgid "Custom Placeholder"
+msgstr ""
+
+#: includes/admin/class-settings.php:79
+msgid "Hide Country Placeholder"
+msgstr ""
+
+#: includes/admin/class-settings.php:81
+msgid "Hide Subscribe Form for Guests"
+msgstr ""
+
+#: includes/admin/class-settings.php:82
+#: includes/admin/class-settings.php:302
+msgid "Message to display when the subscribe form is hidden for non logged-in Users"
+msgstr ""
+
+#: includes/admin/class-settings.php:84
+msgid "Hide Subscribe Form for Members"
+msgstr ""
+
+#: includes/admin/class-settings.php:86
+msgid "Show Subscribe Form on Backorders"
+msgstr ""
+
+#: includes/admin/class-settings.php:87
+msgid "Show Subscribe Now Button in Catalog Page(shop/category)"
+msgstr ""
+
+#: includes/admin/class-settings.php:88
+msgid "Hide Read more Button in Catalog Page(shop/category)"
+msgstr ""
+
+#: includes/admin/class-settings.php:90
+msgid "Show/Hide Subscribe Form for specific products"
+msgstr ""
+
+#: includes/admin/class-settings.php:91
+msgid "Show/Hide Subscribe Form for specific categories"
+msgstr ""
+
+#: includes/admin/class-settings.php:92
+msgid "Show/Hide Subscribe Form for specific tags"
+msgstr ""
+
+#: includes/admin/class-settings.php:94
+#: includes/admin/class-settings.php:503
+msgid "Hide Subscribe Form on Regular Products out of stock"
+msgstr ""
+
+#: includes/admin/class-settings.php:95
+#: includes/admin/class-settings.php:451
+msgid "Hide Subscribe Form on Sale Products out of stock"
+msgstr ""
+
+#: includes/admin/class-settings.php:97
+msgid "Don't overwrite disabled out of stock variations from theme configuration"
+msgstr ""
+
+#: includes/admin/class-settings.php:98
+msgid "Ignore WooCommerce Out of Stock Visibility Settings for Variation"
+msgstr ""
+
+#: includes/admin/class-settings.php:100
+msgid "Message Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:101
+msgid "Success Subscription Message"
+msgstr ""
+
+#: includes/admin/class-settings.php:102
+msgid "Email Already Subscribed Message"
+msgstr ""
+
+#: includes/admin/class-settings.php:104
+msgid "Name Field Empty Error"
+msgstr ""
+
+#: includes/admin/class-settings.php:105
+msgid "Email Field Empty Error"
+msgstr ""
+
+#: includes/admin/class-settings.php:106
+msgid "Invalid Email Error"
+msgstr ""
+
+#: includes/admin/class-settings.php:107
+msgid "Invalid Phone Number Error"
+msgstr ""
+
+#: includes/admin/class-settings.php:108
+msgid "Phone Number too short error"
+msgstr ""
+
+#: includes/admin/class-settings.php:109
+msgid "Phone Number too long error"
+msgstr ""
+
+#: includes/admin/class-settings.php:111
+msgid "Mail Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:112
+msgid "Enable Success Subscription Mail"
+msgstr ""
+
+#: includes/admin/class-settings.php:113
+msgid "Success Subscription Mail Subject"
+msgstr ""
+
+#: includes/admin/class-settings.php:114
+msgid "Success Subscription Mail Message"
+msgstr ""
+
+#: includes/admin/class-settings.php:115
+msgid "Additionally Send this Subscription mail as a copy to specific email ids"
+msgstr ""
+
+#: includes/admin/class-settings.php:116
+msgid "Enter Email Ids separated by commas that you want to receive subscription copy mail"
+msgstr ""
+
+#: includes/admin/class-settings.php:118
+msgid "Enable Instock Mail"
+msgstr ""
+
+#: includes/admin/class-settings.php:119
+msgid "Consider Only Published Product Status"
+msgstr ""
+
+#: includes/admin/class-settings.php:120
+msgid "Instock Mail Subject"
+msgstr ""
+
+#: includes/admin/class-settings.php:121
+msgid "Instock Mail Message"
+msgstr ""
+
+#: includes/admin/class-settings.php:122
+msgid "Minimum stock quantity threshold value"
+msgstr ""
+
+#: includes/admin/class-settings.php:123
+msgid "Keep Subscription Entry to Subscribed Status even Instock Email Sent (Unless it is Unsubscribed)"
+msgstr ""
+
+#: includes/admin/class-settings.php:125
+msgid "Background Process Engine - Advanced Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:126
+msgid "Background Process Engine"
+msgstr ""
+
+#: includes/admin/class-settings.php:136
+msgid "Customize the Frontend Subscribe Form when Product become out of stock"
+msgstr ""
+
+#: includes/admin/class-settings.php:143
+msgid "Inline Subscribe Form"
+msgstr ""
+
+#: includes/admin/class-settings.php:144
+msgid "Pop-Up Subscribe Form"
+msgstr ""
+
+#: includes/admin/class-settings.php:174
+#: includes/frontend/class-product.php:199
+msgid "Your Name"
+msgstr ""
+
+#: includes/admin/class-settings.php:198
+msgid "Visibility Settings for Subscriber Form Frontend"
+msgstr ""
+
+#: includes/admin/class-settings.php:206
+msgid "Hide name field in Subscribe Form"
+msgstr ""
+
+#: includes/admin/class-settings.php:216
+msgid "Show phone field in Subscribe Form"
+msgstr ""
+
+#: includes/admin/class-settings.php:226
+msgid "Enable this option to make phone field as optional"
+msgstr ""
+
+#: includes/admin/class-settings.php:259
+msgid "Default/Automatic"
+msgstr ""
+
+#: includes/admin/class-settings.php:281
+msgid "Enable this option to hide the placeholder for the phone field in the front-end subscribe form"
+msgstr ""
+
+#: includes/admin/class-settings.php:291
+msgid "Hide Subscribe Form for non logged-in Users"
+msgstr ""
+
+#: includes/admin/class-settings.php:312
+msgid "Hide Subscribe Form for logged-in Users"
+msgstr ""
+
+#: includes/admin/class-settings.php:322
+msgid "Display Subscribe Form for Back Order"
+msgstr ""
+
+#: includes/admin/class-settings.php:333
+msgid "Display Subscribe Now Button in Catalog Page"
+msgstr ""
+
+#: includes/admin/class-settings.php:343
+msgid "Hide Read more button in catalog page(shop/category)"
+msgstr ""
+
+#: includes/admin/class-settings.php:352
+#: includes/class-stock-arrival.php:151
+msgid "Select Products"
+msgstr ""
+
+#: includes/admin/class-settings.php:369
+#: includes/admin/class-settings.php:402
+#: includes/admin/class-settings.php:434
+msgid "Show"
+msgstr ""
+
+#: includes/admin/class-settings.php:373
+#: includes/admin/class-settings.php:406
+#: includes/admin/class-settings.php:438
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/class-settings.php:376
+#: includes/admin/class-settings.php:409
+#: includes/admin/class-settings.php:441
+msgid "By Default this field will empty means subscribe form will shown to all out of stock products by default"
+msgstr ""
+
+#: includes/admin/class-settings.php:385
+msgid "Select Categories"
+msgstr ""
+
+#: includes/admin/class-settings.php:418
+msgid "Select Product Tags"
+msgstr ""
+
+#: includes/admin/class-settings.php:461
+msgid ""
+"Some themes disable variation out of stock by default and some by an option, when activate our plugin it overwrite\n"
+"                theme configuration(disabled variation become selectable), so by enable this option our plugin settings will not\n"
+"                overwrite theme configuration"
+msgstr ""
+
+#: includes/admin/class-settings.php:471
+msgid "Enable this option to not overwrite disabled out of stock variation settings from themes(some themes)"
+msgstr ""
+
+#: includes/admin/class-settings.php:481
+msgid ""
+"WooCommerce has an option to hide out of stock products from catalog(WooCommerce->Products->Inventory->Out of stock\n"
+"                visibililty),when you enable/enabled this option will hide out of stock products from shop page/category page, but\n"
+"                this also hide out of stock variations from variation dropdown, for that we provide option to ignore that\n"
+"                woocommerce out of stock visibility settings only for variable products"
+msgstr ""
+
+#: includes/admin/class-settings.php:493
+msgid "Enable this option to ignore WooCommerce Out of stock Visibility Settings for Variations"
+msgstr ""
+
+#: includes/admin/class-settings.php:509
+msgid "Customize Error Message and its Visibility"
+msgstr ""
+
+#: includes/admin/class-settings.php:565
+msgid "Customize Email Message and its corresponding settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:584
+msgid "For Example: If admin/shop owner want to receive email copy of subcribers then enable this option followed by enter their email ids"
+msgstr ""
+
+#: includes/admin/class-settings.php:623
+msgid "By enable this option, instock email will be send to the published product. Status with private/draft product status will not be considered."
+msgstr ""
+
+#: includes/admin/class-settings.php:653
+msgid ""
+"Using this option Instock Email trigger can be controllable, when you manage product stock by quantity. For Ex:\n"
+"                    If you set 5 in this option, you have to update product stock more than or equal to 5 in product stock quantity\n"
+"                    in order to trigger instock email"
+msgstr ""
+
+#: includes/admin/class-settings.php:670
+msgid "Not recommended"
+msgstr ""
+
+#: includes/admin/class-settings.php:673
+msgid "Using this option prevents subscribers from having to repeatedly sign up for notifications when a product becomes available in limited quantities after going out of stock. For instance, if there are 100 subscribers signed up for notifications and only 10 units are expected to be restocked at a time, enabling this option ensures that those subscribers won't need to re-register for notifications each time the product is restocked"
+msgstr ""
+
+#: includes/admin/class-settings.php:675
+msgid "Note: Enabling this option repeatedly sends instock notifications whenever a product becomes available until the subscribed product is \"purchased\" or \"unsubscribed.\""
+msgstr ""
+
+#: includes/admin/class-settings.php:682
+msgid "Please select background process engine, this is important to send a mail in background by default it is WP Background Process and you can also choose WooCommerce Background Process"
+msgstr ""
+
+#: includes/admin/class-settings.php:690
+msgid "WooCommerce Background Process"
+msgstr ""
+
+#: includes/admin/class-settings.php:693
+msgid "Default Background Process"
+msgstr ""
+
+#: includes/admin/class-settings.php:706
+#: includes/admin/class-settings.php:720
+msgid "Supported Shortcodes {product_name}, {only_product_name}"
+msgstr ""
+
+#: includes/admin/class-status.php:18
+msgid "Staus"
+msgstr ""
+
+#: includes/admin/class-status.php:63
+msgid "Success Subscription Mail::Disabled"
+msgstr ""
+
+#: includes/admin/class-status.php:68
+msgid "Back in Stock Email::Disabled"
+msgstr ""
+
+#: includes/admin/class-status.php:73
+msgid "Keep Subscription Entry to Subscribed Status even Instock Email Sent (Unless it is Unsubscribed)::Disabled"
+msgstr ""
+
+#: includes/admin/class-status.php:80
+msgid "Success Subscription Email Subject::missing"
+msgstr ""
+
+#: includes/admin/class-status.php:81
+msgid "Success Subscription Email Subject::present"
+msgstr ""
+
+#: includes/admin/class-status.php:85
+msgid "Success Subscription Email Message::missing"
+msgstr ""
+
+#: includes/admin/class-status.php:86
+msgid "Success Subscription Email Message::present"
+msgstr ""
+
+#: includes/admin/class-status.php:90
+msgid "Back In stock Email Subject::missing"
+msgstr ""
+
+#: includes/admin/class-status.php:91
+msgid "Back In Stock Email Subject::present"
+msgstr ""
+
+#: includes/admin/class-status.php:95
+msgid "Back In Stock Email Message::missing"
+msgstr ""
+
+#: includes/admin/class-status.php:96
+msgid "Back In Stock Email Message::present"
+msgstr ""
+
+#: includes/admin/class-status.php:142
+msgid "Email sending Failed, last tested on:"
+msgstr ""
+
+#: includes/admin/class-status.php:142
+msgid "Email sent successfully, last tested on:"
+msgstr ""
+
+#: includes/admin/class-status.php:324
+#: includes/admin/class-status.php:343
+#: includes/class-ajax.php:336
+#: includes/class-ajax.php:341
+#: includes/class-ajax.php:347
+msgid "Unable to verify details, please try again after some time"
+msgstr ""
+
+#: includes/admin/class-status.php:339
+msgid "Settings UI changed successfully"
+msgstr ""
+
+#: includes/class-ajax.php:127
+msgid "You have successfully subscribed, we will inform you when this product back in stock"
+msgstr ""
+
+#: includes/class-ajax.php:198
+msgid "Seems like you have already subscribed to this product"
+msgstr ""
+
+#: includes/class-auto-delete.php:16
+msgid "Auto Delete Settings"
+msgstr ""
+
+#: includes/class-auto-delete.php:17
+msgid "Enable Auto Delete"
+msgstr ""
+
+#: includes/class-auto-delete.php:18
+msgid "Delete subscribers after x days (By considering the following statuses: MAIL SENT, UNSUBSCRIBED, and PURCHASED)"
+msgstr ""
+
+#: includes/class-auto-delete.php:22
+msgid "After a certain number of days, delete subscribers from the following statuses: MAIL SENT, UNSUBSCRIBED, and PURCHASED"
+msgstr ""
+
+#: includes/class-bot-protection.php:105
+msgid "Bot Protection"
+msgstr ""
+
+#: includes/class-bot-protection.php:106
+msgid "Bot Protection through"
+msgstr ""
+
+#: includes/class-bot-protection.php:108
+msgid "Enable Google reCAPTCHA in Subscribe Form"
+msgstr ""
+
+#: includes/class-bot-protection.php:109
+msgid "Select Google reCAPTCHA version"
+msgstr ""
+
+#: includes/class-bot-protection.php:110
+msgid "Google reCAPTCHA v2 Site Key"
+msgstr ""
+
+#: includes/class-bot-protection.php:111
+msgid "Verify Google reCAPTCHA response in Server Side - this will ignore nonce validation"
+msgstr ""
+
+#: includes/class-bot-protection.php:112
+msgid "Google reCAPTCHA v2 Secret Key(this is required when you want to verify reCAPTCHA response in server side)"
+msgstr ""
+
+#: includes/class-bot-protection.php:115
+msgid "Google reCAPTCHA v3 Site Key"
+msgstr ""
+
+#: includes/class-bot-protection.php:116
+msgid "Google reCAPTCHA v3 Secret Key"
+msgstr ""
+
+#: includes/class-bot-protection.php:117
+msgid "Hide Google v3 reCAPTCHA badge in website"
+msgstr ""
+
+#: includes/class-bot-protection.php:120
+msgid "Enable Turnstile in Subscribe Form"
+msgstr ""
+
+#: includes/class-bot-protection.php:121
+msgid "Turnstile Site Key"
+msgstr ""
+
+#: includes/class-bot-protection.php:122
+msgid "Turnstile Secret Key"
+msgstr ""
+
+#: includes/class-bot-protection.php:130
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: includes/class-bot-protection.php:133
+msgid "Turnstile"
+msgstr ""
+
+#: includes/class-bot-protection.php:140
+msgid "Add Google reCAPTCHA to the Subscribe Form - Check this link for more information: https://www.google.com/recaptcha/ about Google reCAPTCHA. Or add Cloudflare Turnstile Captcha to the Subscribe Form - check this link for more information: https://www.cloudflare.com/products/turnstile/"
+msgstr ""
+
+#: includes/class-bot-protection.php:141
+msgid "Additionally, enabling Bot Protection via either \"Google reCAPTCHA\" or \"Turnstile\" will resolve the \"Something went wrong, please try again after some time\" error.<br><i>Note: Server-side validation is required for Google reCAPTCHA v2 and Turnstile to ensure proper functionality and security of the Bot Protection mechanism.</i>"
+msgstr ""
+
+#: includes/class-bot-protection.php:151
+msgid "Select this option to enable reCAPTCHA in Subscribe Form(site key required for this option)"
+msgstr ""
+
+#: includes/class-bot-protection.php:162
+msgid "v2"
+msgstr ""
+
+#: includes/class-bot-protection.php:165
+msgid "v3"
+msgstr ""
+
+#: includes/class-bot-protection.php:177
+msgid "By Default this option is unchecked means reCAPTCHA verified in client side and WP Nonce Verification in server side, if you check this option then reCAPTCHA Verification can take place in both Client/Server Side(validate again client reCAPTCHA response) and ignore WP Nonce"
+msgstr ""
+
+#: includes/class-bot-protection.php:198
+msgid "reCAPTCHA Secret Key required only when you enabled this option - 'Verify reCAPTCHA response in Server Side', otherwise it is optional"
+msgstr ""
+
+#: includes/class-bot-protection.php:308
+msgid "This site is protected by reCAPTCHA and the Google"
+msgstr ""
+
+#: includes/class-bot-protection.php:310
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/class-bot-protection.php:313
+msgid "Terms of Service"
+msgstr ""
+
+#: includes/class-bot-protection.php:328
+msgid "Select this option to enable Turnstile in Subscribe Form(site key required for this option)"
+msgstr ""
+
+#: includes/class-copy-mailer.php:20
+msgid "Copy Subscription Mail Subject"
+msgstr ""
+
+#: includes/class-copy-mailer.php:21
+msgid "Copy Subscription Mail Message"
+msgstr ""
+
+#: includes/class-copy-mailer.php:26
+msgid "{subscriber_name} has subscribed to {product_name}"
+msgstr ""
+
+#: includes/class-copy-mailer.php:35
+msgid "Subscription Info:<br> {subscriber_name} <br> {subscriber_email} <br> {product_name}"
+msgstr ""
+
+#: includes/class-popup.php:23
+#: includes/frontend/class-product.php:201
+msgid "Subscribe Now"
+msgstr ""
+
+#: includes/class-privacy-checkbox.php:27
+msgid "I Agree Checkbox in Subscribe Form"
+msgstr ""
+
+#: includes/class-privacy-checkbox.php:28
+msgid "Enable I Agree in Subscribe Form"
+msgstr ""
+
+#: includes/class-privacy-checkbox.php:29
+msgid "Text for I Agree - this will appear next to the checkbox frontend"
+msgstr ""
+
+#: includes/class-privacy-checkbox.php:30
+msgid "I Agree Error Message"
+msgstr ""
+
+#: includes/class-privacy-checkbox.php:34
+msgid "I Agree Checkbox(GDPR Compliance) in Subscribe Form Frontend"
+msgstr ""
+
+#: includes/class-privacy-checkbox.php:42
+msgid "Select this option to enable I Agree Checkbox in Subscribe Form(Ex: I Agree to the terms and privacy policy)"
+msgstr ""
+
+#: includes/class-privacy.php:18
+#: includes/class-privacy.php:26
+msgctxt "GDPR Privacy"
+msgid "Back In Stock Notifier"
+msgstr ""
+
+#: includes/class-privacy.php:49
+msgctxt "GDPR privacy"
+msgid "Back In Stock Notifier Lists"
+msgstr ""
+
+#: includes/class-quantity-field.php:31
+msgid "Quantity Field Settings"
+msgstr ""
+
+#: includes/class-quantity-field.php:32
+msgid "Display Quantity Field in the Front-End Subscription Form"
+msgstr ""
+
+#: includes/class-quantity-field.php:33
+msgid "Quantity Field Placeholder"
+msgstr ""
+
+#: includes/class-quantity-field.php:35
+msgid "Quantity Field Empty Error"
+msgstr ""
+
+#: includes/class-quantity-field.php:36
+msgid "Quantity Field Optional"
+msgstr ""
+
+#: includes/class-quantity-field.php:45
+msgid "Use this shortcode {cwginstock_quantity} anywhere in your mail settings to display the subscribed quantity of the product in emails"
+msgstr ""
+
+#: includes/class-quantity-field.php:71
+msgid "Enter the placeholder for the quantity field that should be displayed in the front-end"
+msgstr ""
+
+#: includes/class-quantity-field.php:100
+msgid "Enable this option to make quantity field as optional"
+msgstr ""
+
+#: includes/class-quantity-field.php:117
+msgid "Required Quantity"
+msgstr ""
+
+#: includes/class-quantity-field.php:156
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-rest-api.php:83
+#: includes/class-rest-api.php:228
+msgid "Name field required to perform your request"
+msgstr ""
+
+#: includes/class-rest-api.php:84
+#: includes/class-rest-api.php:229
+msgid "Email Address required to perform your request"
+msgstr ""
+
+#: includes/class-rest-api.php:85
+#: includes/class-rest-api.php:230
+msgid "Product ID required to perform your request"
+msgstr ""
+
+#: includes/class-rest-api.php:86
+#: includes/class-rest-api.php:231
+msgid "Valid Status required to perform your request"
+msgstr ""
+
+#: includes/class-rest-api.php:87
+#: includes/class-rest-api.php:232
+msgid "Subscriber phone required to perform your request"
+msgstr ""
+
+#: includes/class-rest-api.php:88
+#: includes/class-rest-api.php:233
+msgid "Quantity required to perform your request"
+msgstr ""
+
+#: includes/class-rest-api.php:104
+#: includes/class-rest-api.php:248
+msgid "Sorry invalid email in your given request"
+msgstr ""
+
+#: includes/class-rest-api.php:132
+msgid "Unable to CREATE Subscriber please check your details valid"
+msgstr ""
+
+#: includes/class-rest-api.php:135
+msgid "Seems like that email id has been already subscribed"
+msgstr ""
+
+#: includes/class-rest-api.php:138
+#: includes/class-rest-api.php:278
+msgid "Sorry invalid product/variation id in your given request"
+msgstr ""
+
+#: includes/class-rest-api.php:160
+#: includes/class-rest-api.php:204
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: includes/class-rest-api.php:169
+msgid "No Data found for your requested subscriber id"
+msgstr ""
+
+#: includes/class-rest-api.php:171
+msgid "Requested ID is not a Subscriber ID"
+msgstr ""
+
+#: includes/class-rest-api.php:175
+#: includes/class-rest-api.php:295
+msgid "ID not present in your Request, please review your details and try again"
+msgstr ""
+
+#: includes/class-rest-api.php:227
+msgid "Subscriber ID missing in your request"
+msgstr ""
+
+#: includes/class-rest-api.php:275
+msgid "Unable to Update Subscriber please check your details valid"
+msgstr ""
+
+#: includes/class-rest-api.php:291
+msgid "You cannot delete data other than Subscribers"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:15
+#: includes/class-stock-arrival.php:36
+#: includes/class-stock-arrival.php:37
+#: includes/class-stock-arrival.php:47
+#: includes/class-stock-arrival.php:125
+msgid "Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:16
+msgid "Enable Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:17
+msgid "Rule Priority"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:18
+msgid "Display Message Place"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:22
+msgid "Configure the settings for estimating stock arrival."
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:30
+msgid "Select this option to enable Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:41
+msgid "First Matched Rule"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:45
+msgid "Last Matched Rule"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:48
+msgid "If more than one rule matched for the same product then this rule priority will apply"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:59
+msgid "Before Heading"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:62
+msgid "After Heading"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:65
+msgid "Before Input Field"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:68
+msgid "After Input Field"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:71
+msgid "Before Submit Button"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:74
+msgid "After Submit Button"
+msgstr ""
+
+#: includes/class-stock-arrival-settings.php:78
+msgid "Select the place to display the estimate stock arrival message in the subscription form on the frontend"
+msgstr ""
+
+#: includes/class-stock-arrival.php:48
+msgctxt "All ESA"
+msgid "All ESA"
+msgstr ""
+
+#: includes/class-stock-arrival.php:49
+#: includes/class-stock-arrival.php:50
+msgctxt "Estimate Stock Arrival"
+msgid "Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival.php:51
+msgctxt "add new in menu"
+msgid "Add New"
+msgstr ""
+
+#: includes/class-stock-arrival.php:52
+msgid "Add New Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival.php:53
+msgid "New Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival.php:54
+msgid "Edit Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival.php:55
+msgid "View Estimate Stock Arrival"
+msgstr ""
+
+#: includes/class-stock-arrival.php:56
+msgid "All Data"
+msgstr ""
+
+#: includes/class-stock-arrival.php:57
+msgid "Search Data"
+msgstr ""
+
+#: includes/class-stock-arrival.php:59
+msgid "No Data Found"
+msgstr ""
+
+#: includes/class-stock-arrival.php:60
+msgid "No Data found in Trash"
+msgstr ""
+
+#: includes/class-stock-arrival.php:73
+msgid "Product(s)"
+msgstr ""
+
+#: includes/class-stock-arrival.php:74
+#: includes/class-stock-arrival.php:171
+#: includes/class-stock-arrival.php:222
+msgid "Estimated Stock Arrival Date"
+msgstr ""
+
+#: includes/class-stock-arrival.php:75
+msgid "Estimated Stock Arrival Message"
+msgstr ""
+
+#: includes/class-stock-arrival.php:147
+msgid "Select Product(s)"
+msgstr ""
+
+#: includes/class-stock-arrival.php:182
+msgid "Estimate Stock Message"
+msgstr ""
+
+#: includes/class-stock-arrival.php:218
+msgid "Search Products"
+msgstr ""
+
+#: includes/class-stock-arrival.php:226
+msgid "Stock Message"
+msgstr ""
+
+#: includes/class-stock-arrival.php:311
+msgid "Days"
+msgstr ""
+
+#: includes/class-stock-arrival.php:311
+msgid "Day"
+msgstr ""
+
+#: includes/class-troubleshoot.php:15
+msgid "Troubleshoot Settings (Experimental)"
+msgstr ""
+
+#: includes/class-troubleshoot.php:16
+msgid "Frontend Subscribe Form Submission via"
+msgstr ""
+
+#: includes/class-troubleshoot.php:17
+msgid "Enable if Subscribe Form Layout Problem/Input Field Overlap"
+msgstr ""
+
+#: includes/class-troubleshoot.php:18
+msgid "Additional Class Name for Subscribe Button(seperated by commas)"
+msgstr ""
+
+#: includes/class-troubleshoot.php:19
+msgid "Hide Subscriber Count(Admin Side)"
+msgstr ""
+
+#: includes/class-troubleshoot.php:20
+msgid "Enable this option if you have updated the stock from a third-party inventory plugin"
+msgstr ""
+
+#: includes/class-troubleshoot.php:21
+msgid "Remove View Subscribers Link in Product List Table(Admin Dashboard -> Products)"
+msgstr ""
+
+#: includes/class-troubleshoot.php:22
+msgid "Trigger mail to variable product subscribers when any other variation of that product is back in stock"
+msgstr ""
+
+#: includes/class-troubleshoot.php:23
+msgid "Force load Template from Plugin - This option ignores the template override from theme"
+msgstr ""
+
+#: includes/class-troubleshoot.php:24
+msgid "Enable Cache Buster"
+msgstr ""
+
+#: includes/class-troubleshoot.php:25
+msgid "Show Subscribers Count"
+msgstr ""
+
+#: includes/class-troubleshoot.php:26
+msgid "Enable Stop Sending Email from staging site environment"
+msgstr ""
+
+#: includes/class-troubleshoot.php:27
+msgid "Enter your staging site starting domain"
+msgstr ""
+
+#: includes/class-troubleshoot.php:28
+msgid "Disable Prefilled Data for Logged-in Users"
+msgstr ""
+
+#: includes/class-troubleshoot.php:32
+msgid "If frontend Subscribe Form layout breaks/input field overlap? then enable below checkbox option to troubleshoot this issue. If it is not work out then please open a support ticket with us https://codewoogeek.online"
+msgstr ""
+
+#: includes/class-troubleshoot.php:41
+msgid "Wordpress AJAX(default)"
+msgstr ""
+
+#: includes/class-troubleshoot.php:44
+msgid "Wordpress REST API Route"
+msgstr ""
+
+#: includes/class-troubleshoot.php:55
+msgid "Select this option only if the subscribe form layout breaks in frontend(experimental)"
+msgstr ""
+
+#: includes/class-troubleshoot.php:73
+msgid "Select this option to hide subscriber count appeared in the admin menu"
+msgstr ""
+
+#: includes/class-troubleshoot.php:105
+msgid "Select this option to ignore the loading of subscribe form template from theme"
+msgstr ""
+
+#: includes/class-troubleshoot.php:115
+msgid "Select this option to add a cache buster to the \"add-to-cart\" link in the in-stock email"
+msgstr ""
+
+#: includes/class-troubleshoot.php:126
+msgid "Select this option to show \"Subscribers Count\" column in product list table (Admin Dashboard>Products) "
+msgstr ""
+
+#: includes/class-troubleshoot.php:136
+msgid "Enable this option to disable email notifications when sites are accessed on staging domains that mirror the production site. This prevents unnecessary alerts from a testing environment, ensuring the production email flow remains unaffected"
+msgstr ""
+
+#: includes/class-troubleshoot.php:147
+msgid "Enter your starting domain(s) of the staging environment. This option is comma-separated (e.g., \"dev.\", \"test.\", \"staging.\", \"demo\", etc.)"
+msgstr ""
+
+#: includes/class-troubleshoot.php:156
+msgid "Enable this option to prevent the subscription form from auto-filling the name and email fields for logged-in users."
+msgstr ""
+
+#: includes/frontend/class-product.php:200
+msgid "Your Email Address"
+msgstr ""
+
+#: templates/default-form.php:15
+msgid "Email when stock available"
+msgstr ""

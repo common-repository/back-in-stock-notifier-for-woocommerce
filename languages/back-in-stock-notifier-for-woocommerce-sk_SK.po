@@ -1,0 +1,1197 @@
+# Copyright (C) 2023 codewoogeek
+# This file is distributed under the same license as the Back In Stock Notifier for WooCommerce | WooCommerce Waitlist Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Back In Stock Notifier for WooCommerce | WooCommerce "
+"Waitlist Pro 5.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/back-in-stock-"
+"notifier-for-woocommerce\n"
+"POT-Creation-Date: 2024-02-15 14:27+0000\n"
+"PO-Revision-Date: 2024-02-29 16:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: Slovenčina\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: back-in-stock-notifier-for-woocommerce\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
+
+#. %s:
+#: includes/admin/class-post-type.php:598
+#, php-format
+msgid "%s - Data(s) Manually marked status to Mail Sent"
+msgstr "%s - Ručne označený stav na Pošta odoslaná"
+
+#. %s:
+#: includes/admin/class-post-type.php:622
+#, php-format
+msgid "%s - Data(s) Manually marked status to Subscribed"
+msgstr "%s - Ručne označený stav na Registrovaný"
+
+#. %s: count
+#: includes/admin/class-post-type.php:646
+#, php-format
+msgid "%s - Data(s) Manually marked status to Unsubscribed"
+msgstr "%s - Ručne označený stav na Neodhlásené"
+
+#: includes/admin/class-post-type.php:256
+msgid "---"
+msgstr "---"
+
+#: includes/class-google-recaptcha.php:84
+msgid "Add Google reCAPTCHA to the Subscribe Form"
+msgstr "Pridanie reCAPTCHA Google do formulára na prihlásenie"
+
+#: includes/admin/class-post-type.php:70
+msgctxt "add new in menu"
+msgid "Add New Subscriber"
+msgstr "Pridať nového odberateľa"
+
+#: includes/admin/class-post-type.php:71
+msgid "Add New Subscriber"
+msgstr "Pridať nového odberateľa"
+
+#: includes/admin/class-extra.php:16
+msgid "Add-ons"
+msgstr "Doplnky"
+
+#: includes/class-troubleshoot.php:18
+msgid "Additional Class Name for Subscribe Button(seperated by commas)"
+msgstr "Dodatočný názov triedy pre tlačidlo Subscribe (oddelené čiarkami)"
+
+#: includes/admin/class-settings.php:114
+msgid ""
+"Additionally Send this Subscription mail as a copy to specific email ids"
+msgstr ""
+"Dodatočne Odoslať túto predplatenú poštu ako kópiu na konkrétne e-mailové id"
+
+#: includes/class-auto-delete.php:22
+msgid ""
+"After a certain number of days, delete subscribers from the following "
+"statuses: MAIL SENT, UNSUBSCRIBED, and PURCHASED"
+msgstr ""
+"Po určitom počte dní odstráňte odberateľov z nasledujúcich stavov: MAIL SENT,"
+" UNSUBSCRIBED a PURCHASED"
+
+#: includes/admin/class-post-type.php:75
+msgid "All Subscribers"
+msgstr "Všetky registrácie"
+
+#: includes/admin/class-post-type.php:67
+msgctxt "All Subscribers"
+msgid "All Subscribers"
+msgstr "Všetci odberatelia"
+
+#: includes/admin/class-post-type.php:66
+msgctxt "All Subscribers"
+msgid "Subscribers"
+msgstr "Odberatelia"
+
+#: includes/class-auto-delete.php:16
+msgid "Auto Delete Settings"
+msgstr "Nastavenia automatického odstraňovania"
+
+#: includes/admin/class-post-type.php:235
+msgid "Available Quantity:"
+msgstr "Počet k dipozícii:"
+
+#: includes/admin/class-post-type.php:185
+msgid "Avatar"
+msgstr "Profilová fotka"
+
+#: includes/admin/class-status.php:88
+msgid "Back In Stock Email Message::missing"
+msgstr "Späť na sklade E-mailová správa::missing"
+
+#: includes/admin/class-status.php:89
+msgid "Back In Stock Email Message::present"
+msgstr "Späť na sklade E-mailová správa::present"
+
+#: includes/admin/class-status.php:83
+msgid "Back In stock Email Subject::missing"
+msgstr "Späť na sklade Predmet e-mailu::missing"
+
+#: includes/admin/class-status.php:84
+msgid "Back In Stock Email Subject::present"
+msgstr "Späť na sklade Predmet e-mailu::present"
+
+#: includes/admin/class-status.php:67
+msgid "Back in Stock Email::Disabled"
+msgstr "Späť na sklade E-mail::Disabled"
+
+#: includes/admin/class-settings.php:30
+msgid "Back In Stock Notifier for WooCommerce Settings"
+msgstr "Nastavenie pluginu Upozornenia o naskladnení pre WooCommerce"
+
+#. Name of the plugin
+msgid "Back In Stock Notifier for WooCommerce | WooCommerce Waitlist Pro"
+msgstr "Upozornenia o naskladnení pre WooCommerce | WooCommerce Waitlist Pro"
+
+#: includes/admin/class-settings.php:124
+msgid "Background Process Engine"
+msgstr "Procesný motor na pozadí"
+
+#: includes/admin/class-settings.php:123
+msgid "Background Process Engine - Advanced Settings"
+msgstr "Proces na pozadí - Rozšírené nastavenia"
+
+#: includes/admin/class-post-type.php:693
+msgid "Bulk Email: "
+msgstr "Hromadný e-mail: "
+
+#: includes/admin/class-settings.php:69
+msgid "Button Label"
+msgstr "Názov tlačidla"
+
+#: includes/admin/class-settings.php:360 includes/admin/class-settings.php:393
+#: includes/admin/class-settings.php:425
+msgid ""
+"By Default this field will empty means subscribe form will shown to all out "
+"of stock products by default"
+msgstr ""
+"V predvolenom nastavení bude toto pole prázdne, čo znamená, že sa predvolene "
+"zobrazí formulár na odber všetkých produktov, ktoré nie sú na sklade"
+
+#: includes/class-google-recaptcha.php:117
+msgid ""
+"By Default this option is unchecked means reCAPTCHA verified in client side "
+"and WP Nonce Verification in server side, if you check this option then "
+"reCAPTCHA Verification can take place in both Client/Server Side(validate "
+"again client reCAPTCHA response) and ignore WP Nonce"
+msgstr ""
+"V predvolenom nastavení táto možnosť nie je začiarknutá, čo znamená, že "
+"reCAPTCHA sa overuje na strane klienta a WP Nonce Overenie na strane servera,"
+" ak túto možnosť začiarknete, potom reCAPTCHA Overenie môže prebiehať na "
+"strane klienta aj servera (opäť overiť odpoveď klienta reCAPTCHA) a "
+"ignorovať WP Nonce"
+
+#: includes/admin/class-settings.php:592
+msgid ""
+"By enable this option, instock email will be send to the published product. "
+"Status with private/draft product status will not be considered."
+msgstr ""
+"Ak povolíte túto možnosť, k zverejnenému produktu sa bude posielať e-mail o "
+"stave zásob. Stav so súkromným/návrhovým statusom produktu nebude zohľadnený."
+
+#: includes/admin/class-post-type.php:472
+msgid "Change status to Mail Sent"
+msgstr "Zmena stavu na Email poslaný"
+
+#: includes/admin/class-post-type.php:472
+msgid "Change status to Subscribed"
+msgstr "Zmena stavu na Prihlásený"
+
+#: includes/admin/class-post-type.php:472
+msgid "Change status to Unsubscribed"
+msgstr "Zmena stavu na Odhlásený"
+
+#. Author of the plugin
+msgid "codewoogeek"
+msgstr "codewoogeek"
+
+#: includes/admin/class-settings.php:118
+msgid "Consider Only Published Product Status"
+msgstr "Zohľadnite len zverejnený stav produktu"
+
+#: includes/class-copy-mailer.php:21
+msgid "Copy Subscription Mail Message"
+msgstr "Kopírovanie správy so zápisom odberu"
+
+#: includes/class-copy-mailer.php:20
+msgid "Copy Subscription Mail Subject"
+msgstr "Kopírovať Predmet pošty"
+
+#: includes/admin/class-post-type.php:232
+msgid "Current Stock Status:"
+msgstr "Stav na sklade:"
+
+#: includes/admin/class-settings.php:78 includes/admin/class-settings.php:257
+msgid "Custom Placeholder"
+msgstr "Vlastný zástupný symbol"
+
+#: includes/admin/class-settings.php:534
+msgid "Customize Email Message and its corresponding settings"
+msgstr "Prispôsobenie e-mailovej správy a jej príslušných nastavení"
+
+#: includes/admin/class-settings.php:478
+msgid "Customize Error Message and its Visibility"
+msgstr "Prispôsobenie chybovej správy a jej viditeľnosti"
+
+#: includes/admin/class-settings.php:134
+msgid "Customize the Frontend Subscribe Form when Product become out of stock"
+msgstr "Prispôsobenie formulára na oznámenie, keď sa produkt vypredá"
+
+#: includes/admin/class-settings.php:639
+msgid "Default Background Process"
+msgstr "Predvolený proces na pozadí"
+
+#: includes/admin/class-settings.php:76
+msgid "Default Country for Phone Field"
+msgstr "Predvolená krajina pre pole Telefón"
+
+#: includes/admin/class-settings.php:77
+msgid "Default Country for Phone Field Placeholder"
+msgstr "Predvolená krajina pre zástupný symbol telefónneho poľa"
+
+#: includes/admin/class-settings.php:254
+msgid "Default/Automatic"
+msgstr "Predvolené/Automatické"
+
+#: includes/class-auto-delete.php:18
+msgid ""
+"Delete subscribers after x days (By considering the following statuses: MAIL "
+"SENT, UNSUBSCRIBED, and PURCHASED)"
+msgstr ""
+"Odstrániť odberateľov po x dňoch (Zohľadnením nasledujúcich stavov: MAIL "
+"SENT, UNSUBSCRIBED a PURCHASED)"
+
+#: includes/class-quantity-field.php:32
+msgid "Display Quantity Field in the Front-End Subscription Form"
+msgstr "Zobrazenie poľa množstva vo formulári predplatného na prednej strane"
+
+#: includes/admin/class-settings.php:306
+msgid "Display Subscribe Form for Back Order"
+msgstr "Zobrazenie formulára pre spätnú objednávku"
+
+#: includes/admin/class-settings.php:317
+msgid "Display Subscribe Now Button in Catalog Page"
+msgstr "Zobrazenie tlačidla Prihlásiť sa teraz na stránke katalógu"
+
+#: includes/admin/class-settings.php:96
+msgid ""
+"Don't overwrite disabled out of stock variations from theme configuration"
+msgstr "Neprepisujte vypnuté vypredané varianty z konfigurácie témy"
+
+#: includes/admin/class-post-type.php:73
+msgid "Edit Subscriber"
+msgstr "Upraviť odberateľa"
+
+#: includes/admin/class-post-type.php:186
+msgid "Email"
+msgstr "Email"
+
+#: cwginstocknotifier.php:218
+msgid "Email Address cannot be empty"
+msgstr "E-mailová adresa nemôže byť prázdna"
+
+#: includes/class-rest-api.php:64 includes/class-rest-api.php:209
+msgid "Email Address required to perform your request"
+msgstr "E-mailová adresa potrebná na vykonanie vašej žiadosti"
+
+#: includes/admin/class-settings.php:101
+msgid "Email Already Subscribed Message"
+msgstr "E-mail správa pre Už registrovaného"
+
+#: includes/admin/class-settings.php:104
+msgid "Email Field Empty Error"
+msgstr "Chyba Prázdneho e-mailové poľe"
+
+#: includes/admin/class-status.php:135
+msgid "Email sending Failed, last tested on:"
+msgstr "Odosielanie e-mailov zlyhalo, naposledy testované dňa:"
+
+#: includes/admin/class-status.php:135
+msgid "Email sent successfully, last tested on:"
+msgstr "E-mail bol úspešne odoslaný, naposledy testovaný dňa:"
+
+#: templates/default-form.php:6
+msgid "Email when stock available"
+msgstr "E-mail, keď je zásoba k dispozícii"
+
+#: includes/class-auto-delete.php:17
+msgid "Enable Auto Delete"
+msgstr "Povolenie automatického odstraňovania"
+
+#: includes/class-troubleshoot.php:24
+msgid "Enable Cache Buster"
+msgstr "Povolenie funkcie Cache Buster"
+
+#: includes/class-privacy-checkbox.php:28
+msgid "Enable I Agree in Subscribe Form"
+msgstr "Povolenie funkcie Súhlasím vo formulári na prihlásenie"
+
+#: includes/class-troubleshoot.php:17
+msgid "Enable if Subscribe Form Layout Problem/Input Field Overlap"
+msgstr ""
+"Povoliť, ak sa prihlásite na odber Problém s rozložením "
+"formulára/prekrývanie vstupných polí"
+
+#: includes/admin/class-settings.php:117
+msgid "Enable Instock Mail"
+msgstr "Povolenie služby Instock Mail"
+
+#: includes/class-google-recaptcha.php:70
+msgid "Enable reCAPTCHA in Subscribe Form"
+msgstr "Povolenie reCAPTCHA vo formulári na odber"
+
+#: includes/admin/class-settings.php:111
+msgid "Enable Success Subscription Mail"
+msgstr "Povolenie úspešného odberu pošty"
+
+#: includes/class-troubleshoot.php:20
+msgid ""
+"Enable this option if you have updated the stock from a third-party "
+"inventory plugin"
+msgstr ""
+"Túto možnosť povoľte, ak ste aktualizovali zásoby z pluginu inventúry tretej "
+"strany"
+
+#: includes/admin/class-settings.php:276
+msgid ""
+"Enable this option to hide the placeholder for the phone field in the front-"
+"end subscribe form"
+msgstr ""
+"Povolením tejto možnosti skryjete zástupný symbol pre pole telefónu vo "
+"formulári na prihlásenie sa na odber vo front-ende"
+
+#: includes/admin/class-settings.php:462
+msgid ""
+"Enable this option to ignore WooCommerce Out of stock Visibility Settings "
+"for Variations"
+msgstr ""
+"Povoľte túto možnosť, aby ste ignorovali nastavenia viditeľnosti WooCommerce "
+"Out of stock pre variácie"
+
+#: includes/admin/class-settings.php:221
+msgid "Enable this option to make phone field as optional"
+msgstr "Povoľte túto možnosť, aby bolo pole telefónu voliteľné"
+
+#: includes/class-quantity-field.php:100
+msgid "Enable this option to make quantity field as optional"
+msgstr "Povoľte túto možnosť, aby bolo pole množstva voliteľné"
+
+#: includes/admin/class-settings.php:448
+msgid ""
+"Enable this option to not overwrite disabled out of stock variation settings "
+"from themes(some themes)"
+msgstr ""
+"Povoľte túto možnosť, aby ste neprepisovali vypnuté nastavenia variantov z "
+"tém (niektoré témy)"
+
+#: includes/admin/class-settings.php:115
+msgid ""
+"Enter Email Ids separated by commas that you want to receive subscription "
+"copy mail"
+msgstr ""
+"Zadajte e-mailové adresy oddelené čiarkami, na ktoré chcete dostávať "
+"predplatné"
+
+#: includes/class-quantity-field.php:71
+msgid ""
+"Enter the placeholder for the quantity field that should be displayed in the "
+"front-end"
+msgstr ""
+"Zadajte zástupný symbol pre pole množstva, ktoré sa má zobrazovať vo front-"
+"ende"
+
+#: includes/admin/class-post-type.php:305
+msgid "Failed"
+msgstr "Zaslanie zlyhalo"
+
+#: includes/admin/class-post-type.php:514
+msgid "Filter by products"
+msgstr "Filtrovanie podľa produktov"
+
+#: includes/admin/class-settings.php:553
+msgid ""
+"For Example: If admin/shop owner want to receive email copy of subcribers "
+"then enable this option followed by enter their email ids"
+msgstr ""
+"Napríklad: Ak chce administrátor/vlastník obchodu dostávať e-mailovú kópiu "
+"odberateľov, zapnite túto možnosť a potom zadajte ich e-mailové id"
+
+#: includes/class-troubleshoot.php:23
+msgid ""
+"Force load Template from Plugin - This option ignores the template override "
+"from theme"
+msgstr ""
+"Vynútiť načítanie šablóny z pluginu - Táto možnosť ignoruje prepísanie "
+"šablóny z témy"
+
+#: includes/admin/class-settings.php:63
+msgid "Frontend Form"
+msgstr "Frontend formulár"
+
+#: includes/admin/class-settings.php:64
+msgid "Frontend Subscribe Form Display Type"
+msgstr "Typ zobrazenia formulára na prihlásenie na frontend"
+
+#: includes/class-troubleshoot.php:16
+msgid "Frontend Subscribe Form Submission via"
+msgstr "Odoslanie formulára na prihlásenie cez frontend"
+
+#: includes/class-privacy.php:18 includes/class-privacy.php:26
+msgctxt "GDPR Privacy"
+msgid "Back In Stock Notifier"
+msgstr "Upozornenia o naskladnení"
+
+#: includes/class-privacy.php:49
+msgctxt "GDPR privacy"
+msgid "Back In Stock Notifier Lists"
+msgstr "Zoznamy Upozornenia o naskladnení"
+
+#: includes/class-google-recaptcha.php:69
+msgid "Google reCAPTCHA Settings "
+msgstr "Nastavenia reCAPTCHA Google "
+
+#: includes/admin/class-settings.php:357 includes/admin/class-settings.php:390
+#: includes/admin/class-settings.php:422
+msgid "Hide"
+msgstr "Skryť"
+
+#: includes/admin/class-settings.php:79
+msgid "Hide Country Placeholder"
+msgstr "Skryť zástupný symbol krajiny"
+
+#: includes/class-google-recaptcha.php:79
+msgid "Hide Google v3 recaptcha badge in website"
+msgstr "Skryť odznak Google v3 recaptcha na webovej stránke"
+
+#: includes/admin/class-settings.php:72
+msgid "Hide Name"
+msgstr "Skryť názov"
+
+#: includes/admin/class-settings.php:201
+msgid "Hide name field in Subscribe Form"
+msgstr "Skrytie poľa s názvom vo formulári na prihlásenie"
+
+#: includes/admin/class-settings.php:87
+msgid "Hide Read more Button in Catalog Page(shop/category)"
+msgstr "Skryť tlačidlo Viac informácií na stránke katalógu(shop/kategória)"
+
+#: includes/admin/class-settings.php:327
+msgid "Hide Read more button in catalog page(shop/category)"
+msgstr "Skryť tlačidlo Čítať viac na stránke katalógu(obchod/kategória)"
+
+#: includes/admin/class-settings.php:81
+msgid "Hide Subscribe Form for Guests"
+msgstr "Skryť prihlasovací formulár pre hostí"
+
+#: includes/admin/class-settings.php:296
+msgid "Hide Subscribe Form for logged-in Users"
+msgstr "Skryť prihlasovací formulár pre prihlásených používateľov"
+
+#: includes/admin/class-settings.php:83
+msgid "Hide Subscribe Form for Members"
+msgstr "Skryť prihlasovací formulár pre členov"
+
+#: includes/admin/class-settings.php:286
+msgid "Hide Subscribe Form for non logged-in Users"
+msgstr "Skryť prihlasovací formulár pre neprihlásených používateľov"
+
+#: includes/admin/class-settings.php:93 includes/admin/class-settings.php:472
+msgid "Hide Subscribe Form on Regular Products out of stock"
+msgstr ""
+"Skryť formulár na prihlásenie sa na pravidelné produkty, ktoré nie sú na "
+"sklade"
+
+#: includes/admin/class-settings.php:94 includes/admin/class-settings.php:435
+msgid "Hide Subscribe Form on Sale Products out of stock"
+msgstr "Skryť prihlasovací formulár na predaj Produkty nie sú na sklade"
+
+#: includes/class-troubleshoot.php:19
+msgid "Hide Subscriber Count(Admin Side)"
+msgstr "Skryť počet odberateľov (strana správcu)"
+
+#. Author URI of the plugin
+msgid "https://codewoogeek.online"
+msgstr "https://codewoogeek.online"
+
+#. URI of the plugin
+msgid "https://codewoogeek.online/shop/free-plugins/back-in-stock-notifier/"
+msgstr "https://codewoogeek.online/shop/free-plugins/back-in-stock-notifier/"
+
+#: includes/class-privacy-checkbox.php:27
+msgid "I Agree Checkbox in Subscribe Form"
+msgstr "Checkbox Súhlasím vo formulári na prihlásenie"
+
+#: includes/class-privacy-checkbox.php:34
+msgid "I Agree Checkbox(GDPR Compliance) in Subscribe Form Frontend"
+msgstr "Checkbox Súhlasím (súlad s GDPR) vo frontend formulári na prihlásenie"
+
+#: includes/class-privacy-checkbox.php:30
+msgid "I Agree Error Message"
+msgstr "Súhlasím Chybová správa"
+
+#: includes/class-rest-api.php:155 includes/class-rest-api.php:276
+msgid ""
+"ID not present in your Request, please review your details and try again"
+msgstr ""
+"ID nie je uvedené v žiadosti, skontrolujte svoje údaje a skúste to znova"
+
+#: includes/admin/class-post-type.php:331
+msgid "ID:"
+msgstr "ID:"
+
+#: includes/class-troubleshoot.php:29
+msgid ""
+"If frontend Subscribe Form layout breaks/input field overlap? then enable "
+"below checkbox option to troubleshoot this issue. If it is not work out then "
+"please open a support ticket with us https://codewoogeek.online"
+msgstr ""
+"Ak sa rozvrhnutie frontend formulára prekrýva, potom povoľte nižšie uvedenú "
+"možnosť pomocou checkboxu, aby ste tento problém vyriešili. Ak sa to "
+"nepodarí, otvorte si u nás ticket podpory https://codewoogeek.online"
+
+#: includes/admin/class-settings.php:97
+msgid "Ignore WooCommerce Out of Stock Visibility Settings for Variation"
+msgstr ""
+"Ignorovanie nastavenia viditeľnosti vypredaných zásob WooCommerce pre "
+"variácie"
+
+#: includes/admin/class-post-type.php:229
+msgid "In Stock"
+msgstr "Naskladnené"
+
+#: includes/admin/class-settings.php:140
+msgid "Inline Subscribe Form"
+msgstr "Inline formulár na prihlásenie"
+
+#: includes/admin/class-settings.php:120
+msgid "Instock Mail Message"
+msgstr "Instock Mail Správa"
+
+#: includes/admin/class-post-type.php:399
+#: includes/admin/class-post-type.php:670
+msgid "Instock mail sent to {email_id} successfully"
+msgstr "Instock mail úspešne odoslaný na adresu {email_id}"
+
+#: includes/admin/class-settings.php:119
+msgid "Instock Mail Subject"
+msgstr "Instock Mail Predmet"
+
+#: includes/admin/class-post-type.php:68
+msgctxt "Instock Notifier"
+msgid "Instock Notifier"
+msgstr "Upozornenia o naskladnení"
+
+#: includes/admin/class-settings.php:105
+msgid "Invalid Email Error"
+msgstr "Chyba Neplatný e-mail"
+
+#: includes/admin/class-settings.php:106
+msgid "Invalid Phone Number Error"
+msgstr "Chyba Neplatné telefónne číslo"
+
+#: includes/admin/class-post-type.php:293
+msgid "Mail Sent"
+msgstr "Odoslaná pošta"
+
+#. %s: count
+#: includes/admin/class-post-type.php:119
+#, php-format
+msgid "Mail Sent <span class=\"count\">(%s)</span>"
+msgid_plural "Mail Sent <span class=\"count\">(%s)</span>"
+msgstr[0] "Odoslaná pošta <span class=\"count\">(%s)</span>"
+msgstr[1] "Odoslaná pošta <span class=\"count\">(%s)</span>"
+msgstr[2] "Odoslaná pošta <span class=\"count\">(%s)</span>"
+
+#: includes/admin/class-post-type.php:191
+msgid "Mail Sent on "
+msgstr "Pošta bola odoslaná "
+
+#: includes/admin/class-settings.php:110
+msgid "Mail Settings"
+msgstr "Nastavenia emailov"
+
+#: includes/admin/class-settings.php:99
+msgid "Message Settings"
+msgstr "Nastavenia správ"
+
+#: includes/admin/class-settings.php:121
+msgid "Minimum stock quantity threshold value"
+msgstr "Prahová hodnota minimálneho množstva zásob"
+
+#: cwginstocknotifier.php:216 includes/admin/class-settings.php:483
+msgid "Name cannot be empty"
+msgstr "Názov nemôže byť prázdny"
+
+#: includes/admin/class-settings.php:103
+msgid "Name Field Empty Error"
+msgstr "Chyba prázdneho poľa názvu"
+
+#: includes/class-rest-api.php:63 includes/class-rest-api.php:208
+msgid "Name field required to perform your request"
+msgstr "Pole s názvom potrebné na vykonanie vašej žiadosti"
+
+#: includes/admin/class-post-type.php:69
+msgctxt "Name in Admin Bar"
+msgid "Instock Notifier"
+msgstr "Upozornenia o naskladnení"
+
+#: includes/admin/class-post-type.php:72
+msgid "New Subscriber"
+msgstr "Nový odberateľ"
+
+#: includes/admin/class-post-type.php:246
+msgid "No"
+msgstr "Nie"
+
+#: includes/class-rest-api.php:149
+msgid "No Data found for your requested subscriber id"
+msgstr "Nenašli sa žiadne údaje pre požadované ID účastníka"
+
+#: includes/admin/class-post-type.php:78
+msgid "No Subscriber Found"
+msgstr "Nenašiel sa žiadny odberateľ"
+
+#: includes/admin/class-post-type.php:79
+msgid "No Subscriber found in Trash"
+msgstr "V koši nebol nájdený žiadny odberateľ"
+
+#. Description of the plugin
+msgid "Notify subscribed users when products back in stock"
+msgstr "Upozorniť prihlásených používateľov, keď sú produkty opäť na sklade"
+
+#: includes/admin/class-post-type.php:229
+msgid "Out of Stock"
+msgstr "Nenaskladnené"
+
+#: includes/admin/class-post-type.php:77
+msgid "Parent:"
+msgstr "Nadradené:"
+
+#: includes/admin/class-settings.php:75
+msgid "Phone field optional"
+msgstr "Telefónne pole nepovinné"
+
+#: cwginstocknotifier.php:222
+msgid "Phone Number cannot be empty"
+msgstr "Telefónne číslo nemôže byť prázdne"
+
+#: cwginstocknotifier.php:225 includes/admin/class-settings.php:526
+msgid "Phone Number too long"
+msgstr "Príliš dlhé telefónne číslo"
+
+#: includes/admin/class-settings.php:108
+msgid "Phone Number too long error"
+msgstr "Chyba príliš dlhého telefónneho čísla"
+
+#: cwginstocknotifier.php:224 includes/admin/class-settings.php:517
+msgid "Phone Number too short"
+msgstr "Príliš krátke telefónne číslo"
+
+#: includes/admin/class-settings.php:107
+msgid "Phone Number too short error"
+msgstr "Chyba príliš krátkeho telefónneho čísla"
+
+#: includes/admin/class-settings.php:68
+msgid "Placeholder for Email Field"
+msgstr "Zástupný symbol pre e-mailové pole"
+
+#: includes/admin/class-settings.php:66
+msgid "Placeholder for Name Field"
+msgstr "Zástupný symbol pre pole Názov"
+
+#: cwginstocknotifier.php:219
+msgid "Please Enter Valid Email Address"
+msgstr "Zadajte platnú e-mailovú adresu"
+
+#: cwginstocknotifier.php:223 includes/admin/class-settings.php:508
+msgid "Please enter valid Phone Number"
+msgstr "Zadajte platné telefónne číslo"
+
+#: includes/admin/class-settings.php:628
+msgid ""
+"Please select background process engine, this is important to send a mail in "
+"background by default it is WP Background Process and you can also choose "
+"WooCommerce Background Process"
+msgstr ""
+"Prosím, vyberte procesný motor na pozadí, je to dôležité pre odosielanie "
+"pošty na pozadí v predvolenom nastavení je to WP Background Process a môžete "
+"tiež vybrať WooCommerce Background Process"
+
+#: includes/admin/class-settings.php:140
+msgid "Pop-Up Subscribe Form"
+msgstr "Pop-Up formulár na prihlásenie"
+
+#: includes/admin/class-post-type.php:123
+msgctxt "post"
+msgid "Failed"
+msgstr "Zaslanie zlyhalo"
+
+#: includes/admin/class-post-type.php:113
+msgctxt "post"
+msgid "Mail Sent"
+msgstr "Odoslaná pošta"
+
+#: includes/admin/class-post-type.php:153
+msgctxt "post"
+msgid "Purchased"
+msgstr "Zakúpené"
+
+#: includes/admin/class-post-type.php:133
+msgctxt "post"
+msgid "Subscribed"
+msgstr "Prihlásený"
+
+#: includes/admin/class-post-type.php:143
+msgctxt "post"
+msgid "Unsubscribed"
+msgstr "Odhlásený"
+
+#: includes/class-google-recaptcha.php:217
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobných údajov"
+
+#: includes/admin/class-post-type.php:188
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/class-rest-api.php:65 includes/class-rest-api.php:210
+msgid "Product ID required to perform your request"
+msgstr "ID produktu potrebné na vykonanie vašej požiadavky"
+
+#: includes/admin/class-post-type.php:301
+msgid "Purchased"
+msgstr "Zakúpené"
+
+#: includes/class-quantity-field.php:156
+msgid "Quantity"
+msgstr "Počet"
+
+#: cwginstocknotifier.php:217 includes/class-quantity-field.php:83
+msgid "Quantity cannot be empty"
+msgstr "Množstvo nemôže byť prázdne"
+
+#: includes/class-quantity-field.php:35
+msgid "Quantity Field Empty Error"
+msgstr "Chyba prázdneho poľa množstva"
+
+#: includes/class-quantity-field.php:36
+msgid "Quantity Field Optional"
+msgstr "Množstevné pole Nepovinné"
+
+#: includes/class-quantity-field.php:33
+msgid "Quantity Field Placeholder"
+msgstr "Zástupca poľa Množstvo"
+
+#: includes/class-quantity-field.php:31
+msgid "Quantity Field Settings"
+msgstr "Nastavenia množstevného poľa"
+
+#: includes/class-rest-api.php:68 includes/class-rest-api.php:213
+msgid "Quantity required to perform your request"
+msgstr "Množstvo potrebné na vykonanie vašej požiadavky"
+
+#: includes/class-google-recaptcha.php:137
+msgid ""
+"reCAPTCHA Secret Key required only when you enabled this option - 'Verify "
+"reCAPTCHA response in Server Side', otherwise it is optional"
+msgstr ""
+"tajný kľúč reCAPTCHA sa vyžaduje len vtedy, ak ste povolili túto možnosť - "
+"\"Overiť odpoveď reCAPTCHA na strane servera\", inak je nepovinný"
+
+#: includes/class-google-recaptcha.php:74
+msgid ""
+"reCAPTCHA v2 Secret Key(this is required when you want to verify reCAPTCHA "
+"response in server side)"
+msgstr ""
+"tajný kľúč reCAPTCHA v2(vyžaduje sa, keď chcete overiť odpoveď reCAPTCHA na "
+"strane servera)"
+
+#: includes/class-google-recaptcha.php:72
+msgid "reCAPTCHA v2 Site Key"
+msgstr "reCAPTCHA v2 Site Key"
+
+#: includes/class-google-recaptcha.php:78
+msgid "reCAPTCHA v3 Secret Key"
+msgstr "tajný kľúč reCAPTCHA v3"
+
+#: includes/class-google-recaptcha.php:77
+msgid "reCAPTCHA v3 Site Key"
+msgstr "reCAPTCHA v3 Site Key"
+
+#: includes/admin/class-post-type.php:189
+msgid "Registered User"
+msgstr "Registrovaný používateľ"
+
+#: includes/class-troubleshoot.php:21
+msgid ""
+"Remove View Subscribers Link in Product List Table(Admin Dashboard -> "
+"Products)"
+msgstr ""
+"Odstránenie odkazu Zobraziť odberateľov v tabuľke zoznamu produktov (Admin "
+"Dashboard -> Produkty)"
+
+#: includes/class-rest-api.php:151
+msgid "Requested ID is not a Subscriber ID"
+msgstr "Požadované ID nie je ID účastníka"
+
+#: includes/class-quantity-field.php:117
+msgid "Required Quantity"
+msgstr "Požadované mnžstvo"
+
+#: includes/admin/class-post-type.php:76
+msgid "Search Subscribers"
+msgstr "Vyhľadávanie odberateľov"
+
+#: includes/admin/class-post-type.php:438
+msgid "Security Check Failed, Please try later"
+msgstr "Kontrola zabezpečenia zlyhala, skúste to neskôr"
+
+#: includes/class-rest-api.php:115
+msgid "Seems like that email id has been already subscribed"
+msgstr "Zdá sa, že toto e-mailové ID už bolo prihlásené"
+
+#: includes/class-ajax.php:148
+msgid "Seems like you have already subscribed to this product"
+msgstr "Zdá sa, že ste si tento produkt už predplatili"
+
+#: includes/admin/class-settings.php:369
+msgid "Select Categories"
+msgstr "Vyberte kategóriu"
+
+#: includes/class-google-recaptcha.php:71
+msgid "Select Google reCAPTCHA version"
+msgstr "Vyberte verziu reCAPTCHA Google"
+
+#: includes/admin/class-settings.php:402
+msgid "Select Product Tags"
+msgstr "Vybrať značky produktov"
+
+#: includes/admin/class-settings.php:336
+msgid "Select Products"
+msgstr "Výber produktov"
+
+#: includes/class-troubleshoot.php:52
+msgid ""
+"Select this option only if the subscribe form layout breaks in "
+"frontend(experimental)"
+msgstr ""
+"Túto možnosť vyberte len vtedy, ak sa rozvrhnutie formulára na odber rozbije "
+"vo frontende(experimentálne)"
+
+#: includes/class-troubleshoot.php:112
+msgid ""
+"Select this option to add a cache buster to the \"add-to-cart\" link in the "
+"in-stock email"
+msgstr ""
+"prekrýva?Výberom tejto možnosti pridáte do odkazu \"pridať do košíka\" v e-"
+"mailovej správe o skladových zásobách buster vyrovnávacej pamäte"
+
+#: includes/class-privacy-checkbox.php:42
+msgid ""
+"Select this option to enable I Agree Checkbox in Subscribe Form(Ex: I Agree "
+"to the terms and privacy policy)"
+msgstr ""
+"Vyberte túto možnosť, ak chcete povoliť Checkbox Súhlasím vo formulári na "
+"prihlásenie (napr.: Súhlasím s podmienkami a zásadami ochrany osobných "
+"údajov)"
+
+#: includes/class-google-recaptcha.php:93
+msgid ""
+"Select this option to enable reCAPTCHA in Subscribe Form(site key required "
+"for this option)"
+msgstr ""
+"Vyberte túto možnosť, ak chcete povoliť reCAPTCHA v prihlasovacom formulári "
+"(pre túto možnosť je potrebný kľúč stránky)"
+
+#: includes/class-troubleshoot.php:70
+msgid "Select this option to hide subscriber count appeared in the admin menu"
+msgstr ""
+"Vyberte túto možnosť, ak chcete skryť počet účastníkov zobrazených v ponuke "
+"správcu"
+
+#: includes/class-troubleshoot.php:102
+msgid ""
+"Select this option to ignore the loading of subscribe form template from "
+"theme"
+msgstr ""
+"Vyberte túto možnosť, ak chcete ignorovať načítanie šablóny formulára na "
+"odber z témy"
+
+#: includes/class-troubleshoot.php:123
+msgid ""
+"Select this option to show \"Subscribers Count\" column in product list "
+"table (Admin Dashboard>Products) "
+msgstr ""
+"Vyberte túto možnosť, ak chcete zobraziť stĺpec \"Počet odberateľov\" v "
+"tabuľke zoznamu produktov (Admin Dashboard>Produkty) "
+
+#: includes/admin/class-post-type.php:472
+msgid "Send Email"
+msgstr "Zaslať email"
+
+#: includes/admin/class-post-type.php:341
+msgid "Send Instock Mail"
+msgstr "Odoslať email o naskladnený"
+
+#: includes/admin/class-settings.php:20
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: includes/admin/class-status.php:318
+msgid "Settings UI changed successfully"
+msgstr "Úspešná zmena používateľského rozhrania"
+
+#: includes/admin/class-settings.php:353 includes/admin/class-settings.php:386
+#: includes/admin/class-settings.php:418
+msgid "Show"
+msgstr "Zobraziť"
+
+#: includes/admin/class-settings.php:74
+msgid "Show Phone"
+msgstr "Zobraziť telefón"
+
+#: includes/admin/class-settings.php:211
+msgid "Show phone field in Subscribe Form"
+msgstr "Zobrazenie telefónneho poľa vo formulári na prihlásenie"
+
+#: includes/admin/class-settings.php:85
+msgid "Show Subscribe Form on Backorders"
+msgstr "Zobraziť formulár na prihlásenie sa na spätné objednávky"
+
+#: includes/admin/class-settings.php:86
+msgid "Show Subscribe Now Button in Catalog Page(shop/category)"
+msgstr ""
+"Zobraziť tlačidlo Prihlásiť sa k odberu na stránke katalógu "
+"(obchod/kategória)"
+
+#: includes/class-troubleshoot.php:25
+msgid "Show Subscribers Count"
+msgstr "Zobraziť počet odberateľov"
+
+#: includes/admin/class-settings.php:90
+msgid "Show/Hide Subscribe Form for specific categories"
+msgstr ""
+"Zobraziť/skryť formulár na prihlásenie sa na odber pre konkrétne kategórie"
+
+#: includes/admin/class-settings.php:89
+msgid "Show/Hide Subscribe Form for specific products"
+msgstr ""
+"Zobraziť/skryť formulár na prihlásenie sa na odber konkrétnych produktov"
+
+#: includes/admin/class-settings.php:91
+msgid "Show/Hide Subscribe Form for specific tags"
+msgstr ""
+"Zobraziť/skryť formulár na prihlásenie sa na odber pre konkrétne značky"
+
+#: includes/class-rest-api.php:84 includes/class-rest-api.php:228
+msgid "Sorry invalid email in your given request"
+msgstr "Ospravedlňujeme sa za neplatný e-mail vo vašej žiadosti"
+
+#: includes/class-rest-api.php:118 includes/class-rest-api.php:258
+msgid "Sorry invalid product/variation id in your given request"
+msgstr ""
+"Ospravedlňujeme sa za nesprávne id produktu/variácie vo vašej požiadavke"
+
+#: includes/class-rest-api.php:140 includes/class-rest-api.php:184
+msgid "Sorry, you cannot list resources."
+msgstr "Prepáčte, nemôžete urobiť zoznam zdrojov."
+
+#: includes/admin/class-status.php:18 includes/admin/class-post-type.php:187
+msgid "Status"
+msgstr "Stav"
+
+#: includes/admin/class-status.php:18
+msgid "Staus"
+msgstr "Staus"
+
+#: includes/class-popup.php:23 includes/frontend/class-product.php:182
+msgid "Subscribe Now"
+msgstr "Prihlásiť sa na odber"
+
+#: includes/admin/class-post-type.php:289
+msgid "Subscribed"
+msgstr "Prihlásený"
+
+#: includes/admin/class-post-type.php:190
+#: includes/admin/class-post-type.php:271
+msgid "Subscribed on"
+msgstr "Prihlásenie"
+
+#: includes/class-rest-api.php:207
+msgid "Subscriber ID missing in your request"
+msgstr "Vo vašej žiadosti chýba ID účastníka"
+
+#: includes/class-rest-api.php:67 includes/class-rest-api.php:212
+msgid "Subscriber phone required to perform your request"
+msgstr "Telefón účastníka potrebný na vykonanie vašej požiadavky"
+
+#: includes/admin/class-post-type.php:715
+msgid "Subscribers Count"
+msgstr "Počet odberateľov"
+
+#: includes/admin/class-status.php:78
+msgid "Success Subscription Email Message::missing"
+msgstr "Text emailovej správy pri úspešnom prihlásení sa::chýba"
+
+#: includes/admin/class-status.php:79
+msgid "Success Subscription Email Message::present"
+msgstr "E-mailová správa o úspešnom zápise odberu::present"
+
+#: includes/admin/class-status.php:73
+msgid "Success Subscription Email Subject::missing"
+msgstr "Predmet emailovej správy pri úspešnom prihlásení sa::chýba"
+
+#: includes/admin/class-status.php:74
+msgid "Success Subscription Email Subject::present"
+msgstr "Predmet emailovej správy pri úspešnom prihlásení sa::existuje"
+
+#: includes/admin/class-settings.php:113
+msgid "Success Subscription Mail Message"
+msgstr "Správa o úspešnom oznámení"
+
+#: includes/admin/class-settings.php:112
+msgid "Success Subscription Mail Subject"
+msgstr "Predmet emailovej správy pri úspešnom prihlásení sa"
+
+#: includes/admin/class-status.php:63
+msgid "Success Subscription Mail::Disabled"
+msgstr "Predmet emailovej správy pri úspešnom prihlásení sa::Disabled"
+
+#: includes/admin/class-settings.php:100
+msgid "Success Subscription Message"
+msgstr "Správa o úspešnom oznámení"
+
+#: includes/class-google-recaptcha.php:220
+msgid "Terms of Service"
+msgstr "Podmienky služby"
+
+#: includes/class-privacy-checkbox.php:29
+msgid "Text for I Agree - this will appear next to the checkbox frontend"
+msgstr ""
+"Text pre Súhlasím - zobrazí sa vedľa zaškrtávacieho políčka vo frontende"
+
+#: includes/class-google-recaptcha.php:215
+msgid "This site is protected by reCAPTCHA and the Google"
+msgstr "Táto stránka je chránená pomocou reCAPTCHA a Google"
+
+#: includes/admin/class-settings.php:65
+msgid "Title for Subscribe Form"
+msgstr "Názov formulára na prihlásenie"
+
+#: includes/class-troubleshoot.php:22
+msgid ""
+"Trigger mail to variable product subscribers when any other variation of "
+"that product is back in stock"
+msgstr ""
+"Spúšťanie zaslania emailov o naskladnení variabilných produktov, keď je na "
+"sklade akákoľvek iná variácia daného produktu"
+
+#: includes/class-troubleshoot.php:15
+msgid "Troubleshoot Settings (Experimental)"
+msgstr "Riešenie problémov s nastaveniami (experimentálne)"
+
+#: includes/class-rest-api.php:112
+msgid "Unable to CREATE Subscriber please check your details valid"
+msgstr ""
+"Nie je možné vytvoriť odberateľa, skontrolujte prosím platnosť svojich údajov"
+
+#: includes/admin/class-post-type.php:415
+#: includes/admin/class-post-type.php:677
+msgid "Unable to send Instock mail to this {email_id}"
+msgstr "Nie je možné odoslať správu o naskladnení pre {email_id}"
+
+#: includes/admin/class-post-type.php:426
+#: includes/admin/class-post-type.php:685
+msgid ""
+"Unable to send Instock mail to this {email_id} as stock product does not "
+"exists/deleted !!!"
+msgstr ""
+"Nie je možné odoslať správu Instock na tento {email_id}, pretože skladový "
+"produkt neexistuje/zmazaný !!!"
+
+#: includes/class-rest-api.php:255
+msgid "Unable to Update Subscriber please check your details valid"
+msgstr ""
+"Nie je možné aktualizovať účastníka, skontrolujte prosím platnosť svojich "
+"údajov"
+
+#: includes/class-ajax.php:263 includes/class-ajax.php:268
+#: includes/class-ajax.php:274 includes/admin/class-status.php:305
+#: includes/admin/class-status.php:321
+msgid "Unable to verify details, please try again after some time"
+msgstr "Podrobnosti sa nepodarilo overiť, skúste to po určitom čase znova"
+
+#: includes/admin/class-post-type.php:297
+msgid "Unsubscribed"
+msgstr "Odhlásený"
+
+#: includes/class-quantity-field.php:45
+msgid ""
+"Use this shortcode {cwginstock_quantity} anywhere in your mail settings to "
+"display the subscribed quantity of the product in emails"
+msgstr ""
+"Použite tento shortcode {cwginstock_quantity} kdekoľvek v nastaveniach pošty "
+"na zobrazenie množstva produktu v záujmových e-mailoch"
+
+#: includes/class-google-recaptcha.php:103
+msgid "v2"
+msgstr "v2"
+
+#: includes/class-google-recaptcha.php:106
+msgid "v3"
+msgstr "v3"
+
+#: includes/class-rest-api.php:66 includes/class-rest-api.php:211
+msgid "Valid Status required to perform your request"
+msgstr "Platný stav potrebný na vykonanie vašej žiadosti"
+
+#: includes/class-google-recaptcha.php:73
+msgid ""
+"Verify reCAPTCHA response in Server Side - this will ignore nonce validation"
+msgstr ""
+"Overenie odpovede reCAPTCHA na strane servera - toto bude ignorovať overenie "
+"nonce"
+
+#: includes/admin/class-post-type.php:74
+msgid "View Subscriber"
+msgstr "Zobraziť predplatiteľa"
+
+#: includes/admin/class-post-type.php:370
+msgid "View Subscribers"
+msgstr "Zobrazenie odberateľov"
+
+#: includes/admin/class-settings.php:71
+msgid "Visibility Settings"
+msgstr "Nastavenia viditeľnosti"
+
+#: includes/admin/class-settings.php:193
+msgid "Visibility Settings for Subscriber Form Frontend"
+msgstr "Nastavenia viditeľnosti pre frontend formulára odberateľa"
+
+#: includes/admin/class-post-type.php:309
+msgid "Waiting for Confirmation"
+msgstr "Čakanie na potvrdenie"
+
+#: includes/admin/class-settings.php:636
+msgid "WooCommerce Background Process"
+msgstr "Proces pozadia WooCommerce"
+
+#: includes/class-troubleshoot.php:38
+msgid "Wordpress AJAX(default)"
+msgstr "Wordpress AJAX(predvolené)"
+
+#: includes/class-troubleshoot.php:41
+msgid "Wordpress REST API Route"
+msgstr "Trasa rozhrania API Wordpress REST"
+
+#: includes/admin/class-post-type.php:244
+msgid "Yes"
+msgstr "Áno"
+
+#: includes/class-rest-api.php:272
+msgid "You cannot delete data other than Subscribers"
+msgstr "Nemôžete vymazať iné údaje ako Odberatelia"
+
+#: includes/class-ajax.php:80
+msgid ""
+"You have successfully subscribed, we will inform you when this product back "
+"in stock"
+msgstr ""
+"Úspešne ste sa prihlásili k odberu, budeme vás informovať, keď bude tento "
+"produkt opäť na sklade"
+
+#: includes/frontend/class-product.php:181
+msgid "Your Email Address"
+msgstr "Vaša emailová adresa"
+
+#: includes/frontend/class-product.php:180
+#: includes/admin/class-settings.php:169
+msgid "Your Name"
+msgstr "Vaše meno"
